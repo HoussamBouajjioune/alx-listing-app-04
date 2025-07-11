@@ -29,3 +29,13 @@ export interface PropertyProps {
   image: string;
   discount: string;
 }
+
+export interface Property {
+  id: number;
+  title: string;
+  image: string;
+  price: number;
+  location: string;
+  description: string;
+  amenities: string[];
+}
