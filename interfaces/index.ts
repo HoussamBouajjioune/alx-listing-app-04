@@ -39,3 +39,12 @@ export interface Property {
   description: string;
   amenities: string[];
 }
+
+export interface Review {
+  id: number;
+  comment: string;
+  rating: number;
+  user: {
+    name: string;
+  };
+}
